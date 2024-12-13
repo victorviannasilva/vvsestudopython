@@ -23,7 +23,7 @@ print("O desvio padrão da área urbana=",desvpad)
 
 
 df_estatis=df_filtered.describe()
-df_corrd=df_filtered.corr(numeric_only=True)
+df_corr=df_filtered.corr(numeric_only=True)
 df_dataframeinfo=df_filtered.info()
 
 df_filtered.to_csv('df_resultados.csv', index=False)
